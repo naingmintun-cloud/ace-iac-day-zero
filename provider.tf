@@ -3,7 +3,7 @@ provider "aviatrix" {
   username      = var.username
   password      = var.password
   skip_version_validation  = true
-
+  verify_ssl_certificate   = false
 }
 
 provider "aws" {
