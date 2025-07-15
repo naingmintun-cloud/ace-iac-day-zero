@@ -8,11 +8,11 @@ variable "password" {
 variable "controller_ip" {
 }
 
-variable "ace_password" {
-}
+*/variable "ace_password" {
+}/*
 
 variable "aws_account_name" {
-  default = "aws-account"
+  default = "ace"
 }
 
 variable "aws_transit_instance_size" {
@@ -88,7 +88,7 @@ variable "azure_test_instance_size" {
 }
 
 variable "ace_ec2_key_name" {
-  default = "ACE"
+  default = "ace"
 }
 
 variable "ha_enabled" {
