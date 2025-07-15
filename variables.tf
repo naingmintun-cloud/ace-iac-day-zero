@@ -8,7 +8,8 @@ variable "password" {
 variable "controller_ip" {
 }
 
-
+variable "ace_password" {
+}
 
 variable "aws_account_name" {
   default = "ace"
